@@ -1,0 +1,6 @@
+interface:
+  display_name: "本地 OCR"
+  short_description: "优先离线识别截图、扫描件和图片中的中文文字"
+  default_prompt: "Use $local-ocr to extract the text from this local image and preserve its reading order."
+policy:
+  allow_implicit_invocation: false
